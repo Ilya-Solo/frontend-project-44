@@ -7,3 +7,6 @@
 [![asciicast](https://asciinema.org/a/GHw8FUXk1oBt65WVQbUoIiYWQ.png)](https://asciinema.org/a/GHw8FUXk1oBt65WVQbUoIiYWQ)
 #### Brain-gcd launch:
 [![asciicast](https://asciinema.org/a/VTpJxc0tcg0ZXs4NSHVpVeWPb.png)](https://asciinema.org/a/VTpJxc0tcg0ZXs4NSHVpVeWPb)
+#### Brain-progression launch:
+[![asciicast](https://asciinema.org/a/4DSAvxZH1Tk79fQYAgRKzUZFv.png)](https://asciinema.org/a/4DSAvxZH1Tk79fQYAgRKzUZFv)
+
