@@ -30,6 +30,7 @@ const startBrainEven = () => {
     const number = createNumber(maxNumberLimit);
     console.log(`Question: ${number}`);
     const userAnswer = readlineSync.question('Your answer: ');
+    console.log(typeof userAnswer);
     const userAnswerBoolean = answerToBoolean(userAnswer);
     const correctAnswerBoolean = isEven(number);
     if (correctAnswerBoolean === userAnswerBoolean) {
