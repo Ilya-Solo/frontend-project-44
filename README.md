@@ -9,4 +9,8 @@
 [![asciicast](https://asciinema.org/a/VTpJxc0tcg0ZXs4NSHVpVeWPb.png)](https://asciinema.org/a/VTpJxc0tcg0ZXs4NSHVpVeWPb)
 #### Brain-progression launch:
 [![asciicast](https://asciinema.org/a/4DSAvxZH1Tk79fQYAgRKzUZFv.png)](https://asciinema.org/a/4DSAvxZH1Tk79fQYAgRKzUZFv)
+#### Brain-prime launch:
+[![asciicast](https://asciinema.org/a/TorPLd6CoXavv7EcNMYTiyXyd.png)](https://asciinema.org/a/TorPLd6CoXavv7EcNMYTiyXyd)
+
+
 
