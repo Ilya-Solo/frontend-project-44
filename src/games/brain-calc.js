@@ -12,7 +12,6 @@ const getMathOperationResult = (firstOperand, secondOperand, operator) => {
     default:
       Error('wrong operand');
   }
-  return operationResult;
 };
 
 const generateQuestion = (maxNumberLimit = 40, operatorsArray = ['+', '-', '*']) => {
