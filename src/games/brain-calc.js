@@ -1,18 +1,14 @@
 import getRandNumber from '../usefulFunctions.js';
 
 const gameTask = 'What is the result of the expression?';
-const getMathOperationAnswer = (firstOperand, secondOperand, operator) => {
-  let operationResult;
+const getMathOperationResult = (firstOperand, secondOperand, operator) => {
   switch (operator) {
     case '+':
-      operationResult = firstOperand + secondOperand;
-      break;
+      return firstOperand + secondOperand;
     case '*':
-      operationResult = firstOperand * secondOperand;
-      break;
+      return firstOperand * secondOperand;
     case '-':
-      operationResult = firstOperand - secondOperand;
-      break;
+      return firstOperand - secondOperand;
     default:
       Error('wrong operand');
   }
@@ -21,11 +17,11 @@ const getMathOperationAnswer = (firstOperand, secondOperand, operator) => {
 
 const generateQuestion = (maxNumberLimit = 40, operatorsArray = ['+', '-', '*']) => {
   const [firstOperand, secondOperand, operator] = [getRandNumber(maxNumberLimit),
-    getRandNumber(maxNumberLimit),
-    operatorsArray[getRandNumber(operatorsArray.length - 1)]];
+  getRandNumber(maxNumberLimit),
+  operatorsArray[getRandNumber(operatorsArray.length - 1)]];
 
   const questionText = `${firstOperand} ${operator} ${secondOperand}`;
-  const correctAnswer = `${getMathOperationAnswer(firstOperand, secondOperand, operator)}`;
+  const correctAnswer = `${getMathOperationResult(firstOperand, secondOperand, operator)}`;
   return [questionText, correctAnswer];
 };
 
